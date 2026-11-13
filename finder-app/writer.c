@@ -8,6 +8,7 @@ int main(int argc, char *argv[]) {
         syslog(LOG_ERR, "Use writer <writefile> <writestr>");
         return 1;
     }
+
     FILE *fptr;
     fptr = fopen(argv[1], "w");
 
